@@ -14,7 +14,7 @@ def solution(R):
             max_list.append((len(i)) * max(i))
         else:
             max_list.append(0)
-    print(max(max_list))
+    return(max(max_list))
         
 solution([0, 2, 1, 1, 0, 4, 1])
 solution([1, 4, 1, 0, 5, 2, 3, 0, 8])
